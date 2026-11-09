@@ -60,7 +60,7 @@ void heapSort(int arr[], int n)
         arr[i] = t;
         heapify(arr, i, 0);
     }
-    /* heapSort produces ascending order; reverse for descending merit list */
+    
     for (int i = 0; i < n / 2; i++)
     {
         int t = arr[i];
